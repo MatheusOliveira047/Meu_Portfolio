@@ -32,7 +32,7 @@ $color3:#67568c;
             text-align: center;
             margin-bottom: 10px;
             align-items: center;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             
             
         }
@@ -42,11 +42,11 @@ $color3:#67568c;
             white-space: nowrap;
             border-right: .15em solid #67568c;
             margin: 0 auto;
-            letter-spacing: .15em;
+            
             white-space: nowrap;
             animation:  
-            typing 4s steps(45, end),
-            blink-animation .8s step-end
+            typing 6s steps(45, end)  ,
+            blink-animation .9s step-end
             infinite;
         }
         @keyframes typing {
@@ -87,8 +87,41 @@ $color3:#67568c;
             h2,p {
                 margin-bottom: 20px;
                 color: #ffffff;
-                letter-spacing: 1px;
+                
             }
         }
+    }
+}
+
+/*MEUS PROJETOS*/
+.projetos{
+    background-color: $color-secudary;
+    padding-top:150px ;
+    text-align: center;
+    height: 100vh;
+    h2{
+        color: white;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .box{
+            width: 320px;
+            background-color: $color-primary;
+            margin: 10px;
+            padding: 50px;
+            text-align: center;
+            &:hover{
+               box-shadow: 2px 2px 2px $color3;
+               transition: 0.8;
+                
+            }
+        }
+        
     }
 }

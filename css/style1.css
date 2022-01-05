@@ -41,7 +41,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .home .homeName .dev h3 {
@@ -50,10 +50,9 @@ html {
   white-space: nowrap;
   border-right: .15em solid #67568c;
   margin: 0 auto;
-  letter-spacing: .15em;
   white-space: nowrap;
-  -webkit-animation: typing 4s steps(45, end), blink-animation 0.8s step-end infinite;
-          animation: typing 4s steps(45, end), blink-animation 0.8s step-end infinite;
+  -webkit-animation: typing 6s steps(45, end), blink-animation 0.9s step-end infinite;
+          animation: typing 6s steps(45, end), blink-animation 0.9s step-end infinite;
 }
 
 @-webkit-keyframes typing {
@@ -126,6 +125,49 @@ html {
 .about .container .text-about h2, .about .container .text-about p {
   margin-bottom: 20px;
   color: #ffffff;
-  letter-spacing: 1px;
+}
+
+/*MEUS PROJETOS*/
+.projetos {
+  background-color: #121213;
+  padding-top: 150px;
+  text-align: center;
+  height: 100vh;
+}
+
+.projetos h2 {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.projetos .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.projetos .boxes .box {
+  width: 320px;
+  background-color: #343436;
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+}
+
+.projetos .boxes .box:hover {
+  -webkit-box-shadow: 2px 2px 2px #67568c;
+          box-shadow: 2px 2px 2px #67568c;
+  -webkit-transition: 0.8;
+  transition: 0.8;
 }
 /*# sourceMappingURL=style1.css.map */
