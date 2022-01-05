@@ -3,7 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #343436;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #271a42;
+    border-radius: 8px;
+}
 a {
     color: #ffffff;
     text-decoration: none;

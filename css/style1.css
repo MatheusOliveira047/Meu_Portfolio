@@ -6,6 +6,10 @@
   font-family: 'Lato', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .home {
   background: #01006b;
   background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #000211), color-stop(17%, #030026), to(#06002e));
@@ -48,8 +52,8 @@
   margin: 0 auto;
   letter-spacing: .15em;
   white-space: nowrap;
-  -webkit-animation: typing 3.5s steps(30, end), blink-animation 0.5s step-end infinite;
-          animation: typing 3.5s steps(30, end), blink-animation 0.5s step-end infinite;
+  -webkit-animation: typing 4s steps(45, end), blink-animation 0.8s step-end infinite;
+          animation: typing 4s steps(45, end), blink-animation 0.8s step-end infinite;
 }
 
 @-webkit-keyframes typing {
@@ -75,7 +79,7 @@
     borber-color: transparent;
   }
   50% {
-    border-color: #67568c;
+    border-color: #0f0030;
   }
 }
 
@@ -84,7 +88,7 @@
     borber-color: transparent;
   }
   50% {
-    border-color: #67568c;
+    border-color: #0f0030;
   }
 }
 

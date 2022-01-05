@@ -4,6 +4,11 @@
     box-sizing: border-box; 
     font-family: 'Lato', sans-serif;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 $color-primary: #343436;
 $color-secudary: #121213;
 $color3:#67568c;
@@ -40,8 +45,8 @@ $color3:#67568c;
             letter-spacing: .15em;
             white-space: nowrap;
             animation:  
-            typing 3.5s steps(30, end),
-            blink-animation .5s step-end
+            typing 4s steps(45, end),
+            blink-animation .8s step-end
             infinite;
         }
         @keyframes typing {
@@ -51,7 +56,7 @@ $color3:#67568c;
         
         @keyframes blink-animation {
             from, to {borber-color: transparent}
-            50% { border-color: #67568c;}
+            50% { border-color: #0f0030;}
         }
         h3{
             font-size: 1.4em;
