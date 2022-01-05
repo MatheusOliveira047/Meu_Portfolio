@@ -35,7 +35,7 @@ nav{
 }
 .home{
     background: rgb(1,0,107);
-    background: linear-gradient(180deg, rgba(1,0,107,1) 0%, rgba(0,2,31,1) 0%, rgba(5,1,58,1) 93%, rgba(11,0,93,1) 100%);
+    background: linear-gradient(180deg, rgba(1,0,107,1) 0%, rgba(0,2,17,1) 0%, rgba(3,0,38,1) 17%, rgba(6,0,46,1) 100%);
     height: 92vh;
 }
 .nav-list{
