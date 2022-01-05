@@ -8,8 +8,9 @@ $color-primary: #343436;
 $color-secudary: #121213;
 $color3:#67568c;
 .home{
-    background-color: $color-secudary;
-    height: 92vh;
+    background: rgb(1,0,107);
+    background: linear-gradient(180deg, rgba(1,0,107,1) 0%, rgba(0,2,17,1) 0%, rgba(3,0,38,1) 17%, rgba(6,0,46,1) 100%);
+    height: 100vh;
     
     .homeName{ 
         padding-top: 200px;
@@ -61,5 +62,28 @@ $color3:#67568c;
         
         
      
+    }
+}
+
+/*ABOUT DA PAGINA*/
+.about{
+    background: rgb(1,0,107);
+    background: linear-gradient(180deg, rgba(1,0,107,1) 0%, rgba(2,10,74,1) 0%, rgba(5,0,65,1) 97%, rgba(6,0,43,1) 100%);
+    .container{
+        padding: 120px 0;
+        display: flex;
+        .ilustra img{
+            width: 100%;
+            max-width: 100%;
+            
+        }
+        .text-about{
+            margin-left: 50px;
+            h2,p {
+                margin-bottom: 20px;
+                color: #ffffff;
+                letter-spacing: 1px;
+            }
+        }
     }
 }

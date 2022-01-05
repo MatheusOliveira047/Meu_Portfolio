@@ -2,13 +2,13 @@
 
 window.sr = ScrollReveal();
     sr.reveal('.container',{
-        duration:3000,
+        duration:2000,
         origin:'bottom',
         distance:'-100px'
     });
   
-    sr.reveal('.about-scroll',{
+    sr.reveal('.dev',{
+        delay:1000,
         duration:3000,
-        origin:'bottom',
-        distance:'-100px'
+        distance:'-10px'
     });
