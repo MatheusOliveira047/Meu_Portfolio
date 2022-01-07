@@ -1,4 +1,6 @@
+@charset "UTF-8";
 @media (max-width: 500px) {
+  /*HOME DA PÁGINA*/
   .home {
     height: 88vh;
   }
@@ -11,6 +13,7 @@
   .home .homeName .dev h3 {
     font-size: 17px;
   }
+  /*SOBRE DA PÁGINA  */
   .about .container .ilustra {
     display: none;
   }

@@ -15,26 +15,26 @@ window.sr = ScrollReveal();
     sr.reveal('.you-about',{
         origin:'bottom',
         duration:2500,
-        distance:'-10px'
+        distance:'-80px'
     });
     sr.reveal('.p1',{
         origin:'bottom',
         duration:3000,
-        distance:'-10px'
+        distance:'-80px'
     });
     sr.reveal('.p2',{
         origin:'bottom',
         duration:3500,
-        distance:'-10px'
+        distance:'-80px'
     });
     sr.reveal('.p3',{
         origin:'bottom',
         duration:4000,
-        distance:'-10px'
+        distance:'-80px'
     });
     sr.reveal('.p4',{
         origin:'bottom',
         duration:4500,
-        distance:'-10px'
+        distance:'-80px'
     });
     
