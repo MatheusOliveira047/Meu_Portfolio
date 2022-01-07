@@ -9,6 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
+
 $color-primary: #343436;
 $color-secudary: #121213;
 $color3:#67568c;
@@ -45,9 +46,10 @@ $color3:#67568c;
             
             white-space: nowrap;
             animation:  
-            typing 6s steps(45, end)  ,
+            typing 4s steps(35, end)  ,
             blink-animation .9s step-end
             infinite;
+            animation-delay: 1.3s;
         }
         @keyframes typing {
             from{ width: 0}

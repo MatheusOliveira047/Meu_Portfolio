@@ -51,8 +51,10 @@ html {
   border-right: .15em solid #67568c;
   margin: 0 auto;
   white-space: nowrap;
-  -webkit-animation: typing 6s steps(45, end), blink-animation 0.9s step-end infinite;
-          animation: typing 6s steps(45, end), blink-animation 0.9s step-end infinite;
+  -webkit-animation: typing 4s steps(35, end), blink-animation 0.9s step-end infinite;
+          animation: typing 4s steps(35, end), blink-animation 0.9s step-end infinite;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
 }
 
 @-webkit-keyframes typing {

@@ -1,0 +1,22 @@
+@media (max-width: 400px) {
+  .home {
+    height: 88vh;
+  }
+  .home .homeName .name-scroll h3 {
+    font-size: 20px;
+  }
+  .home .homeName .name-scroll h1 {
+    font-size: 30px;
+  }
+  .home .homeName .dev h3 {
+    font-size: 17px;
+  }
+  .about .container .ilustra {
+    display: none;
+  }
+  .about .container .text-about p {
+    font-size: 13px;
+    padding-right: 20px;
+  }
+}
+/*# sourceMappingURL=responsivo.css.map */

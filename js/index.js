@@ -1,7 +1,7 @@
 //const scrollreveal = require("./scrollreveal");
 
 window.sr = ScrollReveal();
-    sr.reveal('.container',{
+    sr.reveal('.name-scroll',{
         duration:2000,
         origin:'bottom',
         distance:'-100px'
