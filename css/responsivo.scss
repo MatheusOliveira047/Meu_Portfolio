@@ -39,5 +39,20 @@
    }
 
 
-
+   /*PROJETOS DA PAGINA*/
+   .projetos{
+       .container{
+           padding-bottom: 20px;
+           .boxes{
+               margin: 5px;
+               .box-projetos{
+                   margin: 5px;
+                   .box{
+                       width: 40%;
+                       margin: 5px;
+                   }
+               }
+           }
+       }
+   }
 }
