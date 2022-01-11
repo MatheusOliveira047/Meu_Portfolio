@@ -2,20 +2,37 @@
 @media (max-width: 500px) {
   /*HOME DA PÁGINA*/
   .home {
-    height: 88vh;
+    height: 70vh;
   }
-  .home .homeName .name-scroll h3 {
+  .home .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .home .container .homeName .name-scroll h3 {
     font-size: 20px;
   }
-  .home .homeName .name-scroll h1 {
+  .home .container .homeName .name-scroll h1 {
     font-size: 30px;
   }
-  .home .homeName .dev h3 {
+  .home .container .homeName .dev h3 {
     font-size: 17px;
   }
   /*SOBRE DA PÁGINA  */
+  .about .container {
+    padding: 10px;
+  }
   .about .container .ilustra {
     display: none;
+  }
+  .about .container .text-about {
+    margin-top: 60px;
+  }
+  .about .container .text-about .you-about {
+    text-align: center;
   }
   .about .container .text-about p {
     font-size: 16px;
