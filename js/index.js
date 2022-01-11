@@ -1,40 +1,24 @@
 //const scrollreveal = require("./scrollreveal");
 
-window.sr = ScrollReveal();
-    sr.reveal('.name-scroll',{
-        duration:2000,
-        origin:'bottom',
-        distance:'-100px'
-    });
- 
-    sr.reveal('.dev',{
-        delay:1000,
-        duration:3000,
-        distance:'-10px'
-    });
-    sr.reveal('.you-about',{
-        origin:'bottom',
-        duration:2500,
-        distance:'-80px'
-    });
-    sr.reveal('.p1',{
-        origin:'bottom',
-        duration:3000,
-        distance:'-80px'
-    });
-    sr.reveal('.p2',{
-        origin:'bottom',
-        duration:3500,
-        distance:'-80px'
-    });
-    sr.reveal('.p3',{
-        origin:'bottom',
-        duration:4000,
-        distance:'-80px'
-    });
-    sr.reveal('.p4',{
-        origin:'bottom',
-        duration:4500,
-        distance:'-80px'
-    });
-    
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '50px',
+    duration: 2000,
+});
+
+ScrollReveal().reveal('.name-scroll', { delay: 200 });
+ScrollReveal().reveal('.about-scroll', { delay: 200 });
+ScrollReveal().reveal('.you-about', { delay: 300 });
+ScrollReveal().reveal('.p1', { delay: 400 });
+ScrollReveal().reveal('.p2', { delay: 500 });
+ScrollReveal().reveal('.p3', { delay: 600 });
+ScrollReveal().reveal('.p4', { delay: 700 });
+ScrollReveal().reveal('.box-scroll', { delay: 100 });
+ScrollReveal().reveal('.box-scroll1', { delay: 200 });
+ScrollReveal().reveal('.box-scroll2', { delay: 400 });
+ScrollReveal().reveal('.box-scroll3', { delay: 600 });
+ScrollReveal().reveal('.box-scroll4', { delay: 800 });
+ScrollReveal().reveal('.box-scroll5', { delay: 1000 });
+ScrollReveal().reveal('.box-scroll6', { delay: 1200 });
+ScrollReveal().reveal('.box-scroll7', { delay: 1400 });
+ScrollReveal().reveal('.box-scroll8', { delay: 1600 });
