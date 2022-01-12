@@ -49,7 +49,7 @@ $color3:#67568c;
             typing 4s steps(35, end)  ,
             blink-animation .9s step-end
             infinite;
-            animation-delay: 1.3s;
+           
         }
         @keyframes typing {
             from{ width: 0}
@@ -97,7 +97,7 @@ $color3:#67568c;
 
 /*MEUS PROJETOS*/
 .projetos{
-    background-color: $color-secudary;
+    background: linear-gradient(180deg, rgba(1,0,107,1) 0%, rgba(0,2,17,1) 0%, rgba(3,0,38,1) 17%, rgba(6,0,46,1) 100%);
     padding:100px 0;
     text-align: center;
     height: auto;
@@ -137,5 +137,64 @@ $color3:#67568c;
             }
         }
         
+    }
+}
+
+/*HABILIDADES*/
+.habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(180deg, rgba(1,0,107,1) 0%, rgba(2,10,74,1) 0%, rgba(5,0,65,1) 97%, rgba(6,0,43,1) 100%);
+    h2{
+        display: block;
+    }
+    .container-habilidades{
+        margin: auto 0;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .eventos{
+            width: 50%;
+            h2{
+                color: white;
+                font-size: 2em;
+            }
+            .evento{
+                height: 250px;
+                color: white;
+                padding: 10px;
+            }
+        }
+        .habi{
+            width: 50%;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+            .box{
+                margin-right: 10px;
+                background-color: #101041;
+                width: 20%;
+                height: auto;
+                border-radius: 8px;
+                img{
+                    width: 100%;
+                    padding: 10px;
+
+                }
+                h2{
+                    font-size: 1em;
+                    color: white;
+                    padding: 5px;
+                }
+            }
+        }
     }
 }

@@ -2,7 +2,7 @@
 @media (max-width: 500px) {
   /*HOME DA PÁGINA*/
   .home {
-    height: 70vh;
+    height: 80vh;
   }
   .home .container {
     display: -webkit-box;
@@ -11,6 +11,10 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
   }
   .home .container .homeName .name-scroll h3 {
     font-size: 20px;
@@ -51,6 +55,83 @@
   .projetos .container .boxes .box-projetos .box {
     width: 40%;
     margin: 5px;
+  }
+  /*HABILIDADES*/
+  .habilidades {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: auto;
+    background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #020a4a), color-stop(97%, #050041), to(#06002b));
+    background: linear-gradient(180deg, #01006b 0%, #020a4a 0%, #050041 97%, #06002b 100%);
+  }
+  .habilidades .container-habilidades {
+    margin: auto 0;
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .habilidades .container-habilidades .eventos {
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+  }
+  .habilidades .container-habilidades .eventos h2 {
+    color: white;
+    font-size: 2em;
+  }
+  .habilidades .container-habilidades .eventos .evento {
+    height: 150px;
+    color: white;
+    padding: 10px;
+  }
+  .habilidades .container-habilidades .habi {
+    width: 90%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .habilidades .container-habilidades .habi .box {
+    margin: 5px;
+    background-color: #101041;
+    width: 29%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .habilidades .container-habilidades .habi .box img {
+    width: 80%;
+    padding: 10px;
+  }
+  .habilidades .container-habilidades .habi .box h2 {
+    font-size: 0.6em;
+    color: white;
+    padding: 5px;
   }
 }
 /*# sourceMappingURL=responsivo.css.map */

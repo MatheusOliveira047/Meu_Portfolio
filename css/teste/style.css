@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.habilidades .container .habi{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(56, 82, 82);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.box{
+  
+    margin-right: 10px;
+    background-color: aqua;
+    width: 20%;
+    height: auto;
+  
+}
+.habilidades .eventos{
+    width: 50%;
+}
+.evento{
+    height: 250px;
+    color: black;
+    background-color: turquoise;
+    padding: 10px;
+}
+
+.habilidades .container .habi .box img {
+    width: 100%;
+}
+.habilidades .container .habi .box h2{
+    font-size: 16px;
+}

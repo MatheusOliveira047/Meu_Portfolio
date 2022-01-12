@@ -2,10 +2,12 @@
    
    /*HOME DA PÁGINA*/
     .home{
-        height: 70vh;
+        height: 80vh;
         .container{
             display: flex;
             justify-content: center;
+            align-items: center;
+            text-align: center;
             .homeName{
                 .name-scroll{
                     h3{
@@ -64,4 +66,62 @@
            }
        }
    }
+
+   /*HABILIDADES*/
+   .habilidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(180deg, rgba(1,0,107,1) 0%, rgba(2,10,74,1) 0%, rgba(5,0,65,1) 97%, rgba(6,0,43,1) 100%);
+    .container-habilidades{
+        margin: auto 0;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .eventos{
+            margin-top: 50px;
+            width: 80%;
+            text-align: center;
+            h2{
+                color: white;
+                font-size: 2em;
+            }
+            .evento{
+                height: 150px;
+                color: white;
+                padding: 10px;
+            }
+        }
+        .habi{
+            width: 90%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            flex-wrap: wrap;
+            .box{
+                margin: 5px;
+                background-color: #101041;
+                width: 29%;
+                height: auto;
+                border-radius: 8px;
+                img{
+                    width: 80%;
+                    padding: 10px;
+
+                }
+                h2{
+                    font-size: 0.6em;
+                    color: white;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
 }

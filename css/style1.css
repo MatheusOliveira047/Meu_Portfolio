@@ -53,8 +53,6 @@ html {
   white-space: nowrap;
   -webkit-animation: typing 4s steps(35, end), blink-animation 0.9s step-end infinite;
           animation: typing 4s steps(35, end), blink-animation 0.9s step-end infinite;
-  -webkit-animation-delay: 1.3s;
-          animation-delay: 1.3s;
 }
 
 @-webkit-keyframes typing {
@@ -131,7 +129,8 @@ html {
 
 /*MEUS PROJETOS*/
 .projetos {
-  background-color: #121213;
+  background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #000211), color-stop(17%, #030026), to(#06002e));
+  background: linear-gradient(180deg, #01006b 0%, #000211 0%, #030026 17%, #06002e 100%);
   padding: 100px 0;
   text-align: center;
   height: auto;
@@ -179,5 +178,93 @@ html {
 
 .projetos .boxes .box-projetos .barber-shop img {
   width: 100%;
+}
+
+/*HABILIDADES*/
+.habilidades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 80vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #020a4a), color-stop(97%, #050041), to(#06002b));
+  background: linear-gradient(180deg, #01006b 0%, #020a4a 0%, #050041 97%, #06002b 100%);
+}
+
+.habilidades h2 {
+  display: block;
+}
+
+.habilidades .container-habilidades {
+  margin: auto 0;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.habilidades .container-habilidades .eventos {
+  width: 50%;
+}
+
+.habilidades .container-habilidades .eventos h2 {
+  color: white;
+  font-size: 2em;
+}
+
+.habilidades .container-habilidades .eventos .evento {
+  height: 250px;
+  color: white;
+  padding: 10px;
+}
+
+.habilidades .container-habilidades .habi {
+  width: 50%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.habilidades .container-habilidades .habi .box {
+  margin-right: 10px;
+  background-color: #101041;
+  width: 20%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.habilidades .container-habilidades .habi .box img {
+  width: 100%;
+  padding: 10px;
+}
+
+.habilidades .container-habilidades .habi .box h2 {
+  font-size: 1em;
+  color: white;
+  padding: 5px;
 }
 /*# sourceMappingURL=style1.css.map */
