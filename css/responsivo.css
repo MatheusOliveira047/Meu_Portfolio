@@ -68,7 +68,6 @@
         -ms-flex-align: center;
             align-items: center;
     width: 100%;
-    height: auto;
     background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #020a4a), color-stop(97%, #050041), to(#06002b));
     background: linear-gradient(180deg, #01006b 0%, #020a4a 0%, #050041 97%, #06002b 100%);
   }
@@ -103,7 +102,6 @@
   }
   .habilidades .container-habilidades .habi {
     width: 90%;
-    height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -121,7 +119,6 @@
     margin: 5px;
     background-color: #101041;
     width: 29%;
-    height: auto;
     border-radius: 8px;
   }
   .habilidades .container-habilidades .habi .box img {
