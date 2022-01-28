@@ -133,11 +133,11 @@
     color: white;
     padding: 5px;
   }
-}
-
-/*services*/
-.services .container-services .blocos .box-services {
-  width: 45%;
-  margin-bottom: 30px;
+  /*services*/
+  .services .container-services .blocos .box-services {
+    width: 45%;
+    margin-bottom: 30px;
+    padding: 5px;
+  }
 }
 /*# sourceMappingURL=responsivo.css.map */

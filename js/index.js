@@ -31,6 +31,11 @@ ScrollReveal().reveal('.sass', { delay: 1100 });
 ScrollReveal().reveal('.python', { delay: 1300 });
 ScrollReveal().reveal('.material', { delay: 1500 });
 ScrollReveal().reveal('.next', { delay: 1700 });
+ScrollReveal().reveal('.services-h2', { delay: 100 });
+ScrollReveal().reveal('.box-services1', { delay: 200 });
+ScrollReveal().reveal('.box-services2', { delay: 400 });
+ScrollReveal().reveal('.box-services3', { delay: 600 });
+ScrollReveal().reveal('.box-services4', { delay: 800 });
 
 
 

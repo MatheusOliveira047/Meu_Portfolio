@@ -9,6 +9,7 @@
             align-items: center;
             text-align: center;
             .homeName{
+            
                 .name-scroll{
                     h3{
                         font-size: 20px;
@@ -125,17 +126,22 @@
         }
     }
 }
+ /*services*/
+.services{
+    .container-services{
+        .blocos{
+         .box-services{
+             width: 45%;
+             margin-bottom: 30px;
+             padding: 5px ;
+         }
+        }
+    }
 }
 
-   /*services*/
 
-   .services{
-       .container-services{
-           .blocos{
-            .box-services{
-                width: 45%;
-                margin-bottom: 30px;
-            }
-           }
-       }
-   }
+
+
+}
+
+  
