@@ -1,5 +1,4 @@
-//const scrollreveal = require("./scrollreveal");
-
+// EVENTO DE SCROLL REVEAL
 const sr = ScrollReveal({
     origin: 'top',
     distance: '50px',
@@ -9,6 +8,7 @@ const sr = ScrollReveal({
 ScrollReveal().reveal('.name-scroll', { delay: 200 });
 ScrollReveal().reveal('.about-scroll', { delay: 200 });
 ScrollReveal().reveal('.you-about', { delay: 300 });
+ScrollReveal().reveal('.dev', { delay: 200 });
 ScrollReveal().reveal('.p1', { delay: 400 });
 ScrollReveal().reveal('.p2', { delay: 500 });
 ScrollReveal().reveal('.p3', { delay: 600 });
@@ -35,9 +35,9 @@ ScrollReveal().reveal('.next', { delay: 1700 });
 
 
 
-//eventos de mouse 
-// Evento de adicionar texto
+//EVENTOS DE MOUSE
 
+// DECLARANDO AS VARIASVEIS DOS BOXES
 let  html = document.querySelector('.html') 
 let css = document.querySelector('.css')
 let js = document.querySelector('.js')
@@ -47,6 +47,8 @@ let python = document.querySelector('.python')
 let material = document.querySelector('.material')
 let next = document.querySelector('.next')
 let evento = document.querySelector('.evento')
+
+//ADICIONANDO EVENTOS
 html.addEventListener('mouseenter', entrarHtml)
 html.addEventListener('mouseout', sairHtml)
 css.addEventListener('mouseenter', entrarCss)
@@ -64,6 +66,7 @@ material.addEventListener('mouseout', sairMaterial)
 next.addEventListener('mouseenter', entrarNext)
 next.addEventListener('mouseout', sairNext)
 
+//DECLARANDO FUNCTIONS
 function entrarHtml(){
 evento.innerText = 'O HTML é a base de todo sistema web, é com ele que adicionamos em nossa página os Textos, Imagens, Formulários, Vídeos e etc.'
 }

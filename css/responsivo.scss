@@ -73,6 +73,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
     background: linear-gradient(180deg, rgba(1,0,107,1) 0%, rgba(2,10,74,1) 0%, rgba(5,0,65,1) 97%, rgba(6,0,43,1) 100%);
     .container-habilidades{
         margin: auto 0;
@@ -81,6 +82,7 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        height: 100%;
         .eventos{
             margin-top: 50px;
             width: 80%;
@@ -102,6 +104,7 @@
             align-items: center;
             text-align: center;
             flex-wrap: wrap;
+            height: 100%;
             .box{
                 margin: 5px;
                 background-color: #101041;
@@ -123,3 +126,16 @@
     }
 }
 }
+
+   /*services*/
+
+   .services{
+       .container-services{
+           .blocos{
+            .box-services{
+                width: 45%;
+                margin-bottom: 30px;
+            }
+           }
+       }
+   }
