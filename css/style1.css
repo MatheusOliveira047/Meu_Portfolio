@@ -35,7 +35,7 @@ html {
   height: 50vh;
 }
 
-.home .homeName h3, .home .homeName h1 {
+.home .homeName p, .home .homeName h1 {
   color: white;
   text-align: center;
   margin-bottom: 10px;
@@ -45,7 +45,7 @@ html {
   letter-spacing: 1px;
 }
 
-.home .homeName .dev h3 {
+.home .homeName .dev p {
   color: #fff;
   overflow: hidden;
   white-space: nowrap;
@@ -92,7 +92,7 @@ html {
   }
 }
 
-.home .homeName h3 {
+.home .homeName p {
   font-size: 1.4em;
 }
 

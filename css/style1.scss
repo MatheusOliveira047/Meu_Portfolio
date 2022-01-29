@@ -28,7 +28,7 @@ $color3:#67568c;
         align-items: center;
         height: 50vh;
         
-        h3,h1{
+        p,h1{
             color: white;
             text-align: center;
             margin-bottom: 10px;
@@ -37,7 +37,7 @@ $color3:#67568c;
             
             
         }
-        .dev h3{
+        .dev p{
             color:#fff;
             overflow: hidden;
             white-space: nowrap;
@@ -60,7 +60,7 @@ $color3:#67568c;
             from, to {borber-color: transparent}
             50% { border-color: #0f0030;}
         }
-        h3{
+        p{
             font-size: 1.4em;
         }
         h1{
