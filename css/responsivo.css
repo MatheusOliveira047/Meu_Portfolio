@@ -129,9 +129,9 @@
     height: 100%;
   }
   .habilidades .container-habilidades .habi .box {
-    margin: 10px;
+    margin: 8px;
     background-color: #101041;
-    width: 27%;
+    width: 24%;
     border-radius: 8px;
   }
   .habilidades .container-habilidades .habi .box img {
@@ -139,7 +139,7 @@
     padding: 10px;
   }
   .habilidades .container-habilidades .habi .box h2 {
-    font-size: 0.6em;
+    font-size: 0.5em;
     color: white;
     padding: 5px;
   }
