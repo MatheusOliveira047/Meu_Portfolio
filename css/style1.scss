@@ -285,6 +285,9 @@ $color3:#67568c;
                 transition: transform .3s;
                 a{
                     color: #fff;
+                    p{
+                        display: none;
+                    }
                     i{
                         font-size: 2em;
                     }
