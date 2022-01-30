@@ -26,7 +26,17 @@
     font-size: 17px;
   }
   /*SOBRE DA PÁGINA  */
+  .about {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .about .container {
+    width: 88%;
     padding: 10px;
   }
   .about .container .ilustra {
@@ -53,8 +63,8 @@
     margin: 5px;
   }
   .projetos .container .boxes .box-projetos .box {
-    width: 40%;
-    margin: 5px;
+    width: 35%;
+    margin: 15px;
   }
   /*HABILIDADES*/
   .habilidades {
@@ -119,9 +129,9 @@
     height: 100%;
   }
   .habilidades .container-habilidades .habi .box {
-    margin: 5px;
+    margin: 10px;
     background-color: #101041;
-    width: 29%;
+    width: 27%;
     border-radius: 8px;
   }
   .habilidades .container-habilidades .habi .box img {
@@ -135,7 +145,7 @@
   }
   /*services*/
   .services .container-services .blocos .box-services {
-    width: 100%;
+    width: 75%;
     margin-bottom: 30px;
     padding: 5px;
   }

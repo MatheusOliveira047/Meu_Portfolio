@@ -31,7 +31,11 @@
 
    /*SOBRE DA PÁGINA  */
    .about{
+       width: 100%;
+       display: flex;
+       justify-content: center;
        .container{
+           width: 88%;
            padding: 10px;
            
            .ilustra{
@@ -60,8 +64,8 @@
                .box-projetos{
                    margin: 5px;
                    .box{
-                       width: 40%;
-                       margin: 5px;
+                       width: 35%;
+                       margin: 15px;
                    }
                }
            }
@@ -107,9 +111,9 @@
             flex-wrap: wrap;
             height: 100%;
             .box{
-                margin: 5px;
+                margin: 10px;
                 background-color: #101041;
-                width: 29%;
+                width: 27%;
                 
                 border-radius: 8px;
                 img{
@@ -132,7 +136,7 @@
         .blocos{
 
          .box-services{
-             width: 100%;
+             width: 75%;
              margin-bottom: 30px;
              padding: 5px ;
              img{

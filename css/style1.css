@@ -258,9 +258,6 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -270,7 +267,7 @@ html {
 }
 
 .habilidades .container-habilidades .habi .box {
-  margin-right: 10px;
+  margin: 10px;
   background-color: #101041;
   width: 20%;
   height: auto;
