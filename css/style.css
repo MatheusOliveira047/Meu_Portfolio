@@ -30,6 +30,15 @@ a:hover{
 
 }
 
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-nav{
+    width: 80%;
+}
 
 nav{
     display: flex;

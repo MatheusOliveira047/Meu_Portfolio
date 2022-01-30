@@ -76,11 +76,15 @@ $color3:#67568c;
 .about{
     background: rgb(1,0,107);
     background: linear-gradient(180deg, rgba(1,0,107,1) 0%, rgba(2,10,74,1) 0%, rgba(5,0,65,1) 97%, rgba(6,0,43,1) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
     .container{
-        padding: 120px 40px;
+        width: 90%;
+        padding: 120px;
         display: flex;
         .ilustra img{
-            width: 100%;
+            width: 90%;
             max-width: 100%;
             
         }
@@ -101,43 +105,50 @@ $color3:#67568c;
     padding:100px 0;
     text-align: center;
     height: auto;
-    h2{
-        color: white;
-        font-size: 35px;
-        margin-bottom: 20px;
-       
-    }
-    .boxes{
-       
-        .box-projetos{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 30px 60px;
-            .box{
-                background-color: #eeeeee;
-                width: 23.1%;
-                box-sizing: border-box;
-                margin: 20px 4px;
-                padding: 50px 10px;
-                
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .container{
+        width: 90%;
 
-                }
-            .barber-shop{
-                padding: 0;
-                margin: 10px;
-                background: none;
-                a{
-                    text-decoration: none;
-                }
-                img{width: 100%;
-                    
-            }    
-            }
-        }
+            h2{
+                color: white;
+                font-size: 35px;
+            margin-bottom: 20px;
         
-    }
+        }
+        .boxes{
+        
+            .box-projetos{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin: 30px 60px;
+                .box{
+                    background-color: #eeeeee;
+                    width: 23.1%;
+                    box-sizing: border-box;
+                    margin: 20px 4px;
+                    padding: 50px 10px;
+                    
+
+                    }
+                .barber-shop{
+                    padding: 0;
+                    margin: 10px;
+                    background: none;
+                    a{
+                        text-decoration: none;
+                    }
+                    img{width: 100%;
+                        
+                }    
+                }
+            }
+            
+        }
+    } 
 }
 
 /*HABILIDADES*/
