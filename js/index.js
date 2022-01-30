@@ -4,15 +4,19 @@ const sr = ScrollReveal({
     distance: '50px',
     duration: 2000,
 });
-
+//HOME
 ScrollReveal().reveal('.name-scroll', { delay: 200 });
 ScrollReveal().reveal('.about-scroll', { delay: 200 });
 ScrollReveal().reveal('.you-about', { delay: 300 });
 ScrollReveal().reveal('.dev', { delay: 200 });
+
+//ABOUT
 ScrollReveal().reveal('.p1', { delay: 400 });
 ScrollReveal().reveal('.p2', { delay: 500 });
 ScrollReveal().reveal('.p3', { delay: 600 });
 ScrollReveal().reveal('.p4', { delay: 700 });
+
+//PROJETOS
 ScrollReveal().reveal('.box-scroll', { delay: 100 });
 ScrollReveal().reveal('.box-scroll1', { delay: 200 });
 ScrollReveal().reveal('.box-scroll2', { delay: 400 });
@@ -22,6 +26,8 @@ ScrollReveal().reveal('.box-scroll5', { delay: 1000 });
 ScrollReveal().reveal('.box-scroll6', { delay: 1200 });
 ScrollReveal().reveal('.box-scroll7', { delay: 1400 });
 ScrollReveal().reveal('.box-scroll8', { delay: 1600 });
+
+//HABILIDADES
 ScrollReveal().reveal('.eventos', { delay: 100 });
 ScrollReveal().reveal('.html', { delay: 300 });
 ScrollReveal().reveal('.css', { delay: 500 });
@@ -31,11 +37,22 @@ ScrollReveal().reveal('.sass', { delay: 1100 });
 ScrollReveal().reveal('.python', { delay: 1300 });
 ScrollReveal().reveal('.material', { delay: 1500 });
 ScrollReveal().reveal('.next', { delay: 1700 });
+
+//SERVIÇOS
 ScrollReveal().reveal('.services-h2', { delay: 100 });
 ScrollReveal().reveal('.box-services1', { delay: 200 });
 ScrollReveal().reveal('.box-services2', { delay: 400 });
 ScrollReveal().reveal('.box-services3', { delay: 600 });
 ScrollReveal().reveal('.box-services4', { delay: 800 });
+
+//CONTATOS
+ScrollReveal().reveal('.sociais-scroll', { delay: 100 });
+ScrollReveal().reveal('.sociais-scroll1', { delay: 200 });
+ScrollReveal().reveal('.sociais-scroll2', { delay: 300 });
+ScrollReveal().reveal('.sociais-scroll3', { delay: 400 });
+ScrollReveal().reveal('.sociais-scroll4', { delay: 500 });
+ScrollReveal().reveal('.sociais-scroll5', { delay: 600 });
+ScrollReveal().reveal('.sociais-scroll6', { delay: 700 });
 
 
 

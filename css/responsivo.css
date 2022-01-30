@@ -16,13 +16,13 @@
             align-items: center;
     text-align: center;
   }
-  .home .container .homeName .name-scroll h3 {
+  .home .container .homeName .name-scroll p {
     font-size: 20px;
   }
   .home .container .homeName .name-scroll h1 {
     font-size: 30px;
   }
-  .home .container .homeName .dev h3 {
+  .home .container .homeName .dev p {
     font-size: 17px;
   }
   /*SOBRE DA PÁGINA  */
@@ -135,9 +135,17 @@
   }
   /*services*/
   .services .container-services .blocos .box-services {
-    width: 45%;
+    width: 100%;
     margin-bottom: 30px;
     padding: 5px;
+  }
+  .services .container-services .blocos .box-services img {
+    width: 30%;
+  }
+  /*Contatos*/
+  .contatos .container .box-contatos .sociais {
+    width: 25%;
+    margin-bottom: 15px;
   }
 }
 /*# sourceMappingURL=responsivo.css.map */

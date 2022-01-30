@@ -11,7 +11,7 @@
             .homeName{
             
                 .name-scroll{
-                    h3{
+                    p{
                         font-size: 20px;
                     }
                     h1{
@@ -20,7 +20,7 @@
                     }
                 }
                 .dev{
-                    h3{
+                    p{
                         font-size: 17px;
                     }
                 }
@@ -130,10 +130,14 @@
 .services{
     .container-services{
         .blocos{
+
          .box-services{
-             width: 45%;
+             width: 100%;
              margin-bottom: 30px;
              padding: 5px ;
+             img{
+                 width: 30%;
+             }
          }
         }
     }
@@ -141,7 +145,19 @@
 
 
 
+/*Contatos*/
 
+.contatos{
+    .container{
+        .box-contatos{
+            .sociais{
+                width: 25%;
+                margin-bottom: 15px;
+            }
+        }
+    }
 }
 
-  
+
+
+}
