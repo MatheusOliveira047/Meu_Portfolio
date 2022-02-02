@@ -431,12 +431,13 @@
   }
   .habilidades .container-habilidades .eventos h2 {
     color: white;
-    font-size: 2em;
+    font-size: 1.2em;
   }
   .habilidades .container-habilidades .eventos .evento {
     height: 150px;
     color: white;
     padding: 10px;
+    font-size: 1em;
   }
   .habilidades .container-habilidades .habi {
     width: 90%;
@@ -458,6 +459,7 @@
     margin: 8px;
     background-color: #101041;
     width: 24%;
+    padding: 100%;
     border-radius: 8px;
   }
   .habilidades .container-habilidades .habi .box img {

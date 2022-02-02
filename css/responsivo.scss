@@ -437,12 +437,13 @@
             text-align: center;
             h2{
                 color: white;
-                font-size: 2em;
+                font-size: 1.2em;
             }
             .evento{
                 height: 150px;
                 color: white;
                 padding: 10px;
+                font-size: 1em;
             }
         }
         .habi{
@@ -457,6 +458,7 @@
                 margin: 8px;
                 background-color: #101041;
                 width: 24%;
+                padding: 100%;
                 
                 border-radius: 8px;
                 img{
