@@ -378,7 +378,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   /*HOME DA PÁGINA*/
   .home {
     height: 90vh;
@@ -452,25 +452,25 @@
             align-items: center;
     margin-top: 20px;
     display: flex;
-    align-items: center;
+    text-align: center;
     margin-right: 20px;
-    width: 120px;
+    width: 90px;
     border: 2px solid;
     -o-border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
        border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
   }
   .about .container .text-about div .redes a img {
-    font-size: 0.8em;
-    margin-right: 8px;
+    width: 1.2em;
+    margin: 0 auto;
   }
   .about .container .text-about div .redes a p {
-    font-size: 0.8em;
+    font-size: 0.6em;
     margin-top: 15px;
     font-family: monospace;
   }
   .about .container .text-about div .redes a i {
-    font-size: 1.4em;
-    margin-right: 8px;
+    font-size: 1.2em;
+    margin: 0 auto;
   }
   /*PROJETOS DA PAGINA*/
   .projetos .container {
