@@ -62,9 +62,30 @@
   .projetos .container .boxes .box-projetos {
     margin: 5px;
   }
-  .projetos .container .boxes .box-projetos .box {
-    width: 20%;
-    margin: 10px;
+  .projetos .container .boxes .box-projetos .box-projetos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 30px 60px;
+  }
+  .projetos .container .boxes .box-projetos .box-projetos .projeto {
+    text-align: left;
+    color: white;
+    width: 25%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .projetos .container .boxes .box-projetos .box-projetos .projeto img {
+    width: 100%;
+    margin-bottom: 10px;
   }
   /*HABILIDADES*/
   .habilidades {
@@ -177,6 +198,12 @@
             align-items: center;
     text-align: center;
   }
+  .home .container .homeName .redes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .home .container .homeName .name-scroll p {
     font-size: 1.5em;
   }
@@ -206,6 +233,15 @@
   .about .container .text-about {
     margin-top: 60px;
   }
+  .about .container .text-about .redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 25px;
+  }
   .about .container .text-about .you-about {
     text-align: center;
     font-size: 1.8em;
@@ -227,9 +263,26 @@
   .projetos .container .boxes .box-projetos {
     margin: 5px;
   }
-  .projetos .container .boxes .box-projetos .box {
-    width: 26%;
-    margin: 10px;
+  .projetos .container .boxes .box-projetos .box-projetos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 30px 60px;
+  }
+  .projetos .container .boxes .box-projetos .box-projetos .projeto {
+    text-align: left;
+    color: white;
+    width: 50%;
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
   /*HABILIDADES*/
   .habilidades {
@@ -325,10 +378,10 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   /*HOME DA PÁGINA*/
   .home {
-    height: 80vh;
+    height: 90vh;
   }
   .home .container {
     display: -webkit-box;
@@ -378,6 +431,47 @@
     font-size: 16px;
     padding-right: 20px;
   }
+  .about .container .text-about div .redes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  .about .container .text-about div .redes a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 120px;
+    border: 2px solid;
+    -o-border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
+       border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
+  }
+  .about .container .text-about div .redes a img {
+    font-size: 0.8em;
+    margin-right: 8px;
+  }
+  .about .container .text-about div .redes a p {
+    font-size: 0.8em;
+    margin-top: 15px;
+    font-family: monospace;
+  }
+  .about .container .text-about div .redes a i {
+    font-size: 1.4em;
+    margin-right: 8px;
+  }
   /*PROJETOS DA PAGINA*/
   .projetos .container {
     padding-bottom: 20px;
@@ -388,9 +482,12 @@
   .projetos .container .boxes .box-projetos {
     margin: 5px;
   }
-  .projetos .container .boxes .box-projetos .box {
-    width: 35%;
-    margin: 15px;
+  .projetos .container .boxes .box-projetos .projeto {
+    text-align: left;
+    color: white;
+    width: 100%;
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
   /*HABILIDADES*/
   .habilidades {

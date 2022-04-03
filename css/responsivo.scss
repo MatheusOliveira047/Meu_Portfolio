@@ -62,10 +62,27 @@
                margin: 5px;
                .box-projetos{
                    margin: 5px;
-                   .box{
-                       width: 20%;
-                       margin: 10px;
-                   }
+                   .box-projetos{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    margin: 30px 60px;
+                    .projeto{
+                        text-align: left;
+                        color: white;
+                        width: 25%;
+                        margin-right: 30px;
+                        margin-bottom: 30px;
+                        img{
+                            width:100%;
+                            margin-bottom: 10px;
+                        }
+                        
+                        
+                    }
+                      
+                }
                }
            }
        }
@@ -176,6 +193,9 @@
                 align-items: center;
                 text-align: center;
                 .homeName{
+                    .redes{
+                        flex-direction: column;
+                    }
                 
                     .name-scroll{
                         p{
@@ -210,6 +230,11 @@
                }
                .text-about{
                    margin-top: 60px;
+                   .redes{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 25px;
+                }
                    
                    .you-about{
                        text-align: center;
@@ -235,10 +260,23 @@
                    margin: 5px;
                    .box-projetos{
                        margin: 5px;
-                       .box{
-                           width: 26%;
-                           margin: 10px;
-                       }
+                       .box-projetos{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        margin: 30px 60px;
+                        .projeto{
+                            text-align: left;
+                            color: white;
+                            width: 50%;
+                            margin-right: 30px;
+                            margin-bottom: 30px;
+                            
+                            
+                        }
+                          
+                    }
                    }
                }
            }
@@ -341,11 +379,11 @@
 
 
 
-@media (max-width: 500px){
+@media (max-width: 400px){
    
    /*HOME DA PÁGINA*/
     .home{
-        height: 80vh;
+        height: 90vh;
         .container{
             display: flex;
             justify-content: center;
@@ -393,6 +431,40 @@
                    font-size: 16px;
                    padding-right: 20px;
                }
+               div{
+                .redes{
+                    display: flex;
+                    text-align: center;
+                    flex-wrap: wrap;
+                    width: 100%;
+                   
+                    a{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 20px;
+                        display: flex;
+                        align-items: center;
+                        margin-right: 20px;
+                        width: 120px;
+                        border: 2px solid;
+                        border-image: linear-gradient(227.91deg,#106AF2 0%, #00E9FF 100%) 1;
+                        img{
+                            font-size: 0.8em;
+                            margin-right: 8px;
+                        }
+                        p{
+                            font-size: 0.8em;
+                            margin-top: 15px;
+                            font-family: monospace;
+                        }
+                        i{
+                            font-size: 1.4em;
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
            }
        }
    }
@@ -406,10 +478,15 @@
                margin: 5px;
                .box-projetos{
                    margin: 5px;
-                   .box{
-                       width: 35%;
-                       margin: 15px;
-                   }
+                   .projeto{
+                    text-align: left;
+                    color: white;
+                    width: 100%;
+                    margin-right: 30px;
+                    margin-bottom: 30px;
+                    
+                    
+                }
                }
            }
        }
