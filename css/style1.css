@@ -58,8 +58,8 @@ html {
   margin: 20px;
   padding: 2px 20px;
   border: 2px solid;
-  -o-border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
-     border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
+  -o-border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
+     border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
 }
 
 .home .homeName .redes a i {
@@ -204,8 +204,8 @@ html {
   margin-right: 20px;
   width: 180px;
   border: 2px solid;
-  -o-border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
-     border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
+  -o-border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
+     border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
 }
 
 .about .container .text-about div .redes a img {

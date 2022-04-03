@@ -454,23 +454,18 @@
     display: flex;
     text-align: center;
     margin-right: 20px;
-    width: 90px;
+    width: 150px;
     border: 2px solid;
-    -o-border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
-       border-image: linear-gradient(227.91deg, #106AF2 0%, #00E9FF 100%) 1;
+    -o-border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
+       border-image: linear-gradient(227.91deg, #0b4fb6 0%, #003cff 100%) 1;
   }
   .about .container .text-about div .redes a img {
-    width: 1.2em;
-    margin: 0 auto;
+    width: 1.8em;
   }
   .about .container .text-about div .redes a p {
-    font-size: 0.6em;
+    font-size: 1em;
     margin-top: 15px;
     font-family: monospace;
-  }
-  .about .container .text-about div .redes a i {
-    font-size: 1.2em;
-    margin: 0 auto;
   }
   /*PROJETOS DA PAGINA*/
   .projetos .container {
