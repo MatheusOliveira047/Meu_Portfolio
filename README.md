@@ -13,11 +13,11 @@ Meu portfólio onde apliquei alguns conhecimentos que eu possuo
 - JAVASCRIPT
 
 ## VERSÃO WEB
-<img height="150em" src="videos_redme/ezgif.com-gif-maker.gif"/>
+<img height="150em" src="assets/videos_redme/ezgif.com-gif-maker.gif"/>
 
 
 ## VERSÃO MOBILE
-<img height="150em" src="videos_redme/ezgif.com-gif-maker (1).gif"/>
+<img height="150em" src="assets/videos_redme/ezgif.com-gif-maker (1).gif"/>
 
 
 
