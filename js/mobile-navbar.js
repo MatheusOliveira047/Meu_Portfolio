@@ -1,10 +1,23 @@
+// DECLARANDO AS VARIAVEIS 
+let menuResponsivo = document.querySelector(".header")
+let menuHambuguer = document.querySelector(".menu")
+let ancoras = document.querySelectorAll(".nav-list li a")
+
+// ADICIONANDO OS EVENTOS 
+menuHambuguer.addEventListener("click",menu)
+ancoras.forEach((ancora)=>{
+    ancora.addEventListener('click',menu)   
+})
+
+// DECLARANDO A FUNÇÃO
 function menu(){
-    let header = document.querySelector(".header")
-    let me = document.querySelector(".menu")
-    let fechar = document.querySelectorAll(".nav-list li a")
-    fechar.forEach((a)=>{
-        a.classList.toggle("active")
-    })
-    me.classList.toggle("active")
-    header.classList.toggle("active")
+    menuHambuguer.classList.toggle("active")
+    menuResponsivo.classList.toggle("active")
 }
+
+
+
+
+
+
+

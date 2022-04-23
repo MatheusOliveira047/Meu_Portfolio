@@ -12,6 +12,14 @@ Meu portfólio onde apliquei alguns conhecimentos que eu possuo
 - CSS/SASS
 - JAVASCRIPT
 
+## VERSÃO WEB
+    <video src="videos_redme/20220423_103104.mp4"></video>
+
+## VERSÃO MOBILE
+    <video src="videos_redme/20220423_103230.mp4"></video>
+
+
+
 
 ## Link
 **live preview**: https://matheusoliveira047.github.io/Meu_Portfolio/
