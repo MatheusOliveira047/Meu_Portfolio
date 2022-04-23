@@ -13,7 +13,7 @@ Meu portfólio onde apliquei alguns conhecimentos que eu possuo
 - JAVASCRIPT
 
 ## VERSÃO WEB
-<img height="150em" src="videos_redme/ezgif.com-gif-maker.gif"/>
+<img height="250em" src="videos_redme/ezgif.com-gif-maker.gif"/>
 
 
 ## VERSÃO MOBILE
