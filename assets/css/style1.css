@@ -93,11 +93,10 @@ html {
   color: white;
   width: 30%;
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .projetos .container .boxes .box-projetos .projeto img {
   width: 100%;
-  margin-bottom: 10px;
 }
 .projetos .container .boxes .box-projetos .projeto h3, .projetos .container .boxes .box-projetos .projeto p {
   margin-bottom: 10px;
