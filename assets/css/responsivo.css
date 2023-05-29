@@ -5,15 +5,9 @@
     height: 90vh;
   }
   .home .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   .home .container .homeName .name-scroll p {
@@ -28,12 +22,8 @@
   /*SOBRE DA PÁGINA  */
   .about {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .about .container {
     width: 95%;
@@ -63,17 +53,10 @@
     margin: 5px;
   }
   .projetos .container .boxes .box-projetos .box-projetos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 30px 60px;
   }
   .projetos .container .boxes .box-projetos .box-projetos .projeto {
@@ -89,34 +72,20 @@
   }
   /*HABILIDADES*/
   .habilidades {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #020a4a), color-stop(97%, #050041), to(#06002b));
-    background: linear-gradient(180deg, #01006b 0%, #020a4a 0%, #050041 97%, #06002b 100%);
+    background: linear-gradient(180deg, rgb(1, 0, 107) 0%, rgb(2, 10, 74) 0%, rgb(5, 0, 65) 97%, rgb(6, 0, 43) 100%);
   }
   .habilidades .container-habilidades {
     margin: auto 0;
     width: 80%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     height: 100%;
   }
   .habilidades .container-habilidades .eventos {
@@ -136,18 +105,11 @@
   }
   .habilidades .container-habilidades .habi {
     width: 90%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     height: 100%;
   }
   .habilidades .container-habilidades .habi .box {
@@ -180,29 +142,19 @@
     margin-bottom: 15px;
   }
 }
-
 @media (max-width: 768px) {
   /*HOME DA PÁGINA*/
   .home {
     height: 90vh;
   }
   .home .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   .home .container .homeName .redes {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .home .container .homeName .name-scroll p {
     font-size: 1.5em;
@@ -216,12 +168,8 @@
   /*SOBRE DA PÁGINA  */
   .about {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .about .container {
     width: 80%;
@@ -234,12 +182,8 @@
     margin-top: 60px;
   }
   .about .container .text-about .redes {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     padding-bottom: 25px;
   }
   .about .container .text-about .you-about {
@@ -264,17 +208,10 @@
     margin: 5px;
   }
   .projetos .container .boxes .box-projetos .box-projetos {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 30px 60px;
   }
   .projetos .container .boxes .box-projetos .box-projetos .projeto {
@@ -286,34 +223,20 @@
   }
   /*HABILIDADES*/
   .habilidades {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #020a4a), color-stop(97%, #050041), to(#06002b));
-    background: linear-gradient(180deg, #01006b 0%, #020a4a 0%, #050041 97%, #06002b 100%);
+    background: linear-gradient(180deg, rgb(1, 0, 107) 0%, rgb(2, 10, 74) 0%, rgb(5, 0, 65) 97%, rgb(6, 0, 43) 100%);
   }
   .habilidades .container-habilidades {
     margin: auto 0;
     width: 80%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     height: 100%;
   }
   .habilidades .container-habilidades .eventos {
@@ -333,18 +256,11 @@
   }
   .habilidades .container-habilidades .habi {
     width: 90%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     height: 100%;
   }
   .habilidades .container-habilidades .habi .box {
@@ -377,22 +293,15 @@
     margin-bottom: 15px;
   }
 }
-
 @media (max-width: 500px) {
   /*HOME DA PÁGINA*/
   .home {
     height: 90vh;
   }
   .home .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
   }
   .home .container .homeName .name-scroll p {
@@ -407,12 +316,8 @@
   /*SOBRE DA PÁGINA  */
   .about {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .about .container {
     width: 88%;
@@ -432,24 +337,15 @@
     padding-right: 20px;
   }
   .about .container .text-about div .redes {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     text-align: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     width: 100%;
   }
   .about .container .text-about div .redes a {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     display: flex;
     text-align: center;
@@ -486,34 +382,20 @@
   }
   /*HABILIDADES*/
   .habilidades {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#01006b), color-stop(0%, #020a4a), color-stop(97%, #050041), to(#06002b));
-    background: linear-gradient(180deg, #01006b 0%, #020a4a 0%, #050041 97%, #06002b 100%);
+    background: linear-gradient(180deg, rgb(1, 0, 107) 0%, rgb(2, 10, 74) 0%, rgb(5, 0, 65) 97%, rgb(6, 0, 43) 100%);
   }
   .habilidades .container-habilidades {
     margin: auto 0;
     width: 80%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     height: 100%;
   }
   .habilidades .container-habilidades .eventos {
@@ -533,18 +415,11 @@
   }
   .habilidades .container-habilidades .habi {
     width: 90%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     height: 100%;
   }
   .habilidades .container-habilidades .habi .box {
@@ -576,5 +451,4 @@
     width: 25%;
     margin-bottom: 15px;
   }
-}
-/*# sourceMappingURL=responsivo.css.map */
+}/*# sourceMappingURL=responsivo.css.map */
