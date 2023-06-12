@@ -1,31 +1,24 @@
 @media (max-width: 1024px){
        /*HOME DA PÁGINA*/
        .home{
-        height: 90vh;
-        .container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            .homeName{
-            
-                .name-scroll{
-                    p{
-                        font-size: 1.5em;
-                    }
-                    h1{
-                        font-size: 2.5em;
-                        
-                    }
-                }
-                .dev{
-                    p{
-                        font-size: 1.4em;
+        .homeName{ 
+           .job_name{
+                font-size: 4rem ; 
+            }
+        }
+            p{
+                font-size: 2.5rem;
+                .link_social{
+                    margin-left: 20px;
+                    i{
+                        font-size: 1.5rem;
                     }
                 }
             }
-        }
-   }
+            .about_text{
+                font-size: 1.1rem;
+            }
+    }
 
 
    /*SOBRE DA PÁGINA  */
@@ -185,35 +178,25 @@
 
 @media (max-width: 768px){
           /*HOME DA PÁGINA*/
-          .home{
-            height: 90vh;
-            .container{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                .homeName{
-                    .redes{
-                        flex-direction: column;
-                    }
-                
-                    .name-scroll{
-                        p{
-                            font-size: 1.5em;
-                        }
-                        h1{
-                            font-size: 2.5em;
-                            
-                        }
-                    }
-                    .dev{
-                        p{
-                            font-size: 1.4em;
+        .home{
+            .homeName{ 
+               .job_name{
+                    font-size: 2.8rem ; 
+                }
+            }
+                p{
+                    font-size: 1.6rem;
+                    .link_social{
+                        margin-left: 20px;
+                        i{
+                            font-size: 1.5rem;
                         }
                     }
                 }
-            }
-       }
+                .about_text{
+                    font-size: 1rem;
+                }
+        }
     
     
        /*SOBRE DA PÁGINA  */
@@ -382,33 +365,26 @@
 @media (max-width: 500px){
    
    /*HOME DA PÁGINA*/
-    .home{
-        height: 90vh;
-        .container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            .homeName{
-            
-                .name-scroll{
-                    p{
-                        font-size: 20px;
-                    }
-                    h1{
-                        font-size: 30px;
-                        
-                    }
-                }
-                .dev{
-                    p{
-                        font-size: 17px;
-                    }
+   
+   .home{
+    .homeName{ 
+       .job_name{
+            font-size: 1.8rem ; 
+        }
+    }
+        p{
+            font-size: 1rem;
+            .link_social{
+                margin-left: 5px;
+                i{
+                    font-size: 0.8rem;
                 }
             }
         }
-   }
-
+        .about_text{
+            font-size: 0.9rem;
+        }
+}
 
    /*SOBRE DA PÁGINA  */
    .about{

@@ -1,23 +1,20 @@
 @charset "UTF-8";
 @media (max-width: 1024px) {
   /*HOME DA PÁGINA*/
-  .home {
-    height: 90vh;
+  .home .homeName .job_name {
+    font-size: 4rem;
   }
-  .home .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  .home p {
+    font-size: 2.5rem;
   }
-  .home .container .homeName .name-scroll p {
-    font-size: 1.5em;
+  .home p .link_social {
+    margin-left: 20px;
   }
-  .home .container .homeName .name-scroll h1 {
-    font-size: 2.5em;
+  .home p .link_social i {
+    font-size: 1.5rem;
   }
-  .home .container .homeName .dev p {
-    font-size: 1.4em;
+  .home .about_text {
+    font-size: 1.1rem;
   }
   /*SOBRE DA PÁGINA  */
   .about {
@@ -144,26 +141,20 @@
 }
 @media (max-width: 768px) {
   /*HOME DA PÁGINA*/
-  .home {
-    height: 90vh;
+  .home .homeName .job_name {
+    font-size: 2.8rem;
   }
-  .home .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  .home p {
+    font-size: 1.6rem;
   }
-  .home .container .homeName .redes {
-    flex-direction: column;
+  .home p .link_social {
+    margin-left: 20px;
   }
-  .home .container .homeName .name-scroll p {
-    font-size: 1.5em;
+  .home p .link_social i {
+    font-size: 1.5rem;
   }
-  .home .container .homeName .name-scroll h1 {
-    font-size: 2.5em;
-  }
-  .home .container .homeName .dev p {
-    font-size: 1.4em;
+  .home .about_text {
+    font-size: 1rem;
   }
   /*SOBRE DA PÁGINA  */
   .about {
@@ -295,23 +286,20 @@
 }
 @media (max-width: 500px) {
   /*HOME DA PÁGINA*/
-  .home {
-    height: 90vh;
+  .home .homeName .job_name {
+    font-size: 1.8rem;
   }
-  .home .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  .home p {
+    font-size: 1rem;
   }
-  .home .container .homeName .name-scroll p {
-    font-size: 20px;
+  .home p .link_social {
+    margin-left: 5px;
   }
-  .home .container .homeName .name-scroll h1 {
-    font-size: 30px;
+  .home p .link_social i {
+    font-size: 0.8rem;
   }
-  .home .container .homeName .dev p {
-    font-size: 17px;
+  .home .about_text {
+    font-size: 0.9rem;
   }
   /*SOBRE DA PÁGINA  */
   .about {
